@@ -1,5 +1,8 @@
 // import modules
 var foo = require('./foo');
+var bar = require('./bar');
 
-console.log('foo', foo);
-console.log(foo.Foo);
+var newFoo = new foo.Foo('a new foo');
+var newBar = new bar.Bar('a new bar');
+
+console.log(newFoo.getName());

@@ -520,30 +520,77 @@
 	"buffers":
 	[
 		{
-			"file": "/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
-			"settings":
-			{
-				"buffer_size": 33,
-				"line_ending": "Unix",
-				"name": "untitled.sublime-build"
-			}
-		},
-		{
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 18,
+				"buffer_size": 116,
 				"line_ending": "Unix",
 				"name": "console.log('yo');"
 			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".node-inspectorrc",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "foo.js",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"build_system": "Packages/User/node.sublime-build",
 	"command_palette":
 	{
-		"height": 201.0,
+		"height": 54.0,
 		"selected_items":
 		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"mdghp",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdprg",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"mdghb",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mdpr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
 			[
 				"save",
 				"Project: Save As"
@@ -551,10 +598,6 @@
 			[
 				"wra",
 				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
 			],
 			[
 				"refr",
@@ -633,10 +676,6 @@
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
 			],
 			[
-				"mdghb",
-				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
-			],
-			[
 				"maghbr",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
 			],
@@ -663,10 +702,6 @@
 			[
 				"mabr",
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
-			],
-			[
-				"mar",
-				"Markdown Preview: Open Markdown Cheat sheet"
 			],
 			[
 				"html",
@@ -765,7 +800,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 299.0
+		"width": 408.0
 	},
 	"console":
 	{
@@ -787,6 +822,7 @@
 	},
 	"file_history":
 	[
+		"/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
 		"/home/grizzle/code/jeremygreer/public/partials/index.html",
 		"/home/grizzle/code/jeremygreer/public/js/controllers/HeaderCtrl.js",
 		"/home/grizzle/code/jeremygreer/public/js/controllers/ContactCtrl.js",
@@ -913,8 +949,7 @@
 		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/fs-extra/node_modules/mkdirp/test/chmod.js",
 		"/home/grizzle/code/mean-tasks/node_modules/grunt-mocha-test/node_modules/fs-extra/lib/output.js",
 		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/request/node_modules/http-signature/node_modules/ctype/README.old",
-		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/mout/array/toLookup.js",
-		"/home/grizzle/code/mean-tasks/node_modules/jade/LICENSE"
+		"/home/grizzle/code/mean-tasks/node_modules/bower/node_modules/mout/array/toLookup.js"
 	],
 	"find":
 	{
@@ -1242,24 +1277,81 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 33,
+						"buffer_size": 116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7,
-								7
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "console.log('yo');",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1145,
+								1145
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".node-inspectorrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
 							]
 						],
 						"settings":
@@ -1273,25 +1365,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app.js",
+					"buffer": 3,
+					"file": "/home/grizzle/.config/sublime-text-3/Packages/User/node.sublime-build",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 39,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18,
-								18
+								39,
+								39
 							]
 						],
 						"settings":
 						{
-							"auto_name": "console.log('yo');",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "foo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1320,11 +1444,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1336,7 +1467,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 87.0
+		"height": 186.0
 	},
 	"output.find_results":
 	{
